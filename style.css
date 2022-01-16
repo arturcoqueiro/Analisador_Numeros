@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(102, 16, 33);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    max-width: 475px;
+    padding: 13px;
+    font-size: 17px;
+    border: solid 3px black;
+    border-radius: 5px;
+}
+
+input{
+    font-size: 16px;
+    padding: 3px;
+    border-radius: 3px;
+    border: solid 1px black;
+}
+
+select{
+    width: 150px;
+    margin: 8px;
+}
