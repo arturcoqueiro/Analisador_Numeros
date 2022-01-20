@@ -20,6 +20,7 @@ function ad(){
 
             out.appendChild(it)
             res.innerHTML = ''
+            
         }
     }else{
 
@@ -49,19 +50,10 @@ function anls(){
         alert('Informe um Número')
     }
 }
-/*
-if (!(valores.length == '')){
-
-    var reset_btn = document.getElementById('reset')
-    var btn = document.createElement('button')
-
-    btn.value = 'Recomeçar'
-    btn.setAttribute('onclick', 'reset()')
-
-    reset_btn.appendChild(btn)
-}
 
 function reset(){
-    valores = ''
+
+    out.innerHTML = ''
+    valores = []
+    res.innerHTML = ''
 }
-*/
